@@ -1,0 +1,20 @@
+{
+  "name": "protobuff",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "proto-compile": "pbjs -t static-module -w commonjs -o .\\src\\proto\\compiled.js .\\proto\\employees.proto",
+    "run-json-demo": "node .\\src\\employee-json-demo.js",
+    "run-protobuf-demo": "node .\\src\\employee-protobuf-demo.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "google-protobuf": "^3.11.3",
+    "protobufjs": "^7.3.0",
+    "protobufjs-cli": "^1.1.2"
+  }
+}

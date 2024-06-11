@@ -1,4 +1,4 @@
-const fs = require("fs");
+const fs = require("fs")
 
 const employees = []
 
@@ -24,4 +24,4 @@ employees.push(atul)
 employees.push(soumil)
 employees.push(rick)
 
-fs.writeFileSync(".\\tmp\\jsondata.json", JSON.stringify(employees));
+fs.writeFileSync(".\\tmp\\jsondata.json", JSON.stringify(employees))

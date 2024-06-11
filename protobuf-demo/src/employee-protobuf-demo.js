@@ -1,4 +1,4 @@
-const root = require("./proto/compiled");
+const root = require("./proto/compiled")
 const fs = require("fs")
 
 const atul = new root.Employee.create({
